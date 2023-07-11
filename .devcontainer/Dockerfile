@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/devcontainers/base:jammy AS base
 WORKDIR /tmp
 
 # Install poetry
-ENV PATH="${PATH}:/root/.poetry/bin"
+ENV PATH="/root/.local/bin:${PATH}"
 RUN curl -sSL https://install.python-poetry.org | python3 - \
     && poetry completions bash >> ~/.bash_completion
 
