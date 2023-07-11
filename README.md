@@ -5,6 +5,6 @@ To run the project in a devcontainer, use the "Clone Repository in devcontainer"
 # Authenticate with ghcr.io
 # export CR_PAT=YOUR_TOKEN
 # echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
-docker build -t ghcr.io/deckpit/picoctf:latest .devcontainer
-docker push ghcr.io/deckpit/picoctf
+docker build -t ghcr.io/adarah/picoctf:latest .devcontainer
+docker push ghcr.io/adarah/picoctf
 ```
