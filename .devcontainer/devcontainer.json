@@ -3,7 +3,7 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ghcr.io/adarah/picoctf",
+	"image": "ghcr.io/adarah/picoctf:main",
 	"customizations": {
 		"vscode": {
 			"extensions": [
