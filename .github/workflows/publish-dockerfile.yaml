@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - .devcontainer
+      - .devcontainer/**
   workflow_dispatch: {}
 
 env:
