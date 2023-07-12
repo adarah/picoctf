@@ -6,6 +6,7 @@ https://play.picoctf.org/practice/challenge/103
 
 <details>
 <summary>Obtaining the files</summary>
+
 1. Launch wireshark
 2. Filter for `tftp`
 3. Right click > Protocol Preferences > Trivial File Transfer Protocol > Reassemble Fragmented TFTP files
