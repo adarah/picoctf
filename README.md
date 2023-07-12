@@ -1,3 +1,3 @@
 # PicoCTF
 
-If doing a challenge that requires invoking `docker` commands with bind mounts (`-v`), you cannot clone this repository using `Dev Containers: Clone Repository in Container Volume` as the `$LOCAL_WORKSPACE_FOLDER` variable will not be initialized properly. Instead, clone the repository normally and use `Dev Containers: `
+If doing a challenge that requires invoking `docker` commands with bind mounts (`-v`), you cannot clone this repository using `Dev Containers: Clone Repository in Container Volume` as the `$LOCAL_WORKSPACE_FOLDER` variable [will not be initialized properly](https://github.com/devcontainers/features/tree/main/src/docker-outside-of-docker#change-the-workspace-to-localworkspacefolder) (note at the bottom). Instead, clone the repository normally and use `Dev Containers: Open Folder in Container`
