@@ -7,6 +7,7 @@ SHELL ["/bin/bash", "--login", "-c"]
 
 # Install poetry
 ENV PATH="$HOME/.local/bin:$PATH"
+ENV DEBIAN_FRONTEND=non-interactive 
 RUN curl -sSL https://install.python-poetry.org | python3 -
 # This command is using a separate RUN statemnet to start a new shell
 # which will source ~/.profile and thus obtain access to poetry
@@ -16,4 +17,5 @@ RUN sudo apt-get update && sudo apt-get install -y \
     netcat \
     sleuthkit \
     autopsy \
-    exiftool
+    exiftool \
+    tshark
