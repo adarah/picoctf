@@ -11,3 +11,8 @@ RUN curl -sSL https://install.python-poetry.org | python3 -
 # This command is using a separate RUN statemnet to start a new shell, and
 # thus obtain access to poetry
 RUN poetry completions bash >> ~/.bash_completion
+
+RUN sudo apt update && sudo apt install \
+    netcat \
+    sleuthkit \
+    exiftool
