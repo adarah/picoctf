@@ -22,7 +22,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "poetry install"
+	"postCreateCommand": "poetry install",
+	"runArgs": ["--privileged"]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
