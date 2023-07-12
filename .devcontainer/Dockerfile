@@ -16,4 +16,9 @@ RUN sudo apt-get update && sudo apt-get install -y \
     autopsy \
     exiftool \
     tshark \
-    steghide
+    steghide \
+    sharutils \
+    cpio \
+    lzip \
+    lz4 \
+    lzop
