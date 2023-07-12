@@ -15,4 +15,5 @@ RUN poetry completions bash >> ~/.bash_completion
 RUN sudo apt-get update && sudo apt-get install -y \
     netcat \
     sleuthkit \
+    autopsy \
     exiftool
