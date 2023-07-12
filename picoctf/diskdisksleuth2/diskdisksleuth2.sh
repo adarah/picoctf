@@ -6,7 +6,6 @@ scriptdir=$(dirname "$0")
 
 function main() {
     diskImg=$(getDiskImage https://mercury.picoctf.net/static/b369e0ba3b6ffd2be8164cd3c99c294b/dds2-alpine.flag.img.gz)
-    # ifind -a -o 2048 "$diskImg"
     sudo mount "$diskImg" /mnt -o offset=$((512*2048))
     txt=$(sudo cat /mnt/root/down-at-the-bottom.txt)
     sudo umount /mnt
