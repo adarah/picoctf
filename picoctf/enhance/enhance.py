@@ -1,4 +1,3 @@
-# https://play.picoctf.org/practice/challenge/265
 from bs4 import BeautifulSoup
 
 with open('./drawing.flag.svg') as f:
