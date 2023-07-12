@@ -12,7 +12,7 @@ RUN curl -sSL https://install.python-poetry.org | python3 -
 # thus obtain access to poetry
 RUN poetry completions bash >> ~/.bash_completion
 
-RUN sudo apt update && sudo apt install \
+RUN sudo apt-get update && sudo apt-get install -y \
     netcat \
     sleuthkit \
     exiftool
