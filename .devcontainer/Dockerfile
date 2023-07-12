@@ -15,4 +15,5 @@ RUN sudo apt-get update && sudo apt-get install -y \
     sleuthkit \
     autopsy \
     exiftool \
-    tshark
+    tshark \
+    steghide
